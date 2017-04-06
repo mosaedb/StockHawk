@@ -1,4 +1,4 @@
-package com.udacity.stockhawk.sync;
+package com.mosaedb.stockhawk.sync;
 
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
@@ -9,8 +9,8 @@ import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-import com.udacity.stockhawk.data.Contract;
-import com.udacity.stockhawk.data.PrefUtils;
+import com.mosaedb.stockhawk.data.Contract;
+import com.mosaedb.stockhawk.data.PrefUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
